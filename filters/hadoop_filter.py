@@ -63,7 +63,7 @@ class ApplicationAwareFilter(filters.BaseHostFilter):
 
 
 class HadoopFilter(ApplicationAwareFilter):
-    """Hadoop aware filter. Return the host where a DataNode is running"""
+    """Hadoop aware filter. Schedule the instance on an host where a datanode is running"""
     # Inherit from the base Application Aware Filter class
 
     # Constant string values for Hadoop

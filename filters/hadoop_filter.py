@@ -1,7 +1,8 @@
 from nova.scheduler import filters
 from nova.compute import api as compute
+from nova.openstack.common import log as logging
 
-# TODO: implement log operations
+LOG = logging.getLogger(__name__)
 
 
 class ApplicationAwareFilter(filters.BaseHostFilter):
@@ -40,6 +41,9 @@ class ApplicationAwareFilter(filters.BaseHostFilter):
                 if instance_application == application:
                     # Stores the entry (instance uuid, host)
                     all_hosts[instance['uuid']] = instance['host']
+                    LOG.debug(_("Instance %(instance['uuid'])contains "
+                        "the application metadata"),
+                        locals())
         return all_hosts
 
     def _all_application_instances(self, context, application):
@@ -59,6 +63,9 @@ class ApplicationAwareFilter(filters.BaseHostFilter):
                 if instance_application == application:
                     # Stores the entry (instance uuid, instance reference)
                     all_instances[instance['uuid']] = instance
+                    LOG.debug(_("Instance %(instance['uuid'])contains "
+                        "the application metadata"),
+                        locals())
         return all_instances
 
 
@@ -89,11 +96,15 @@ class HadoopFilter(ApplicationAwareFilter):
             # TODO: check if it already discriminate instances by user thanks to context
             instances = self._all_application_instances(context, HadoopFilter.METADATA_APPLICATION_VALUE_HADOOP)
             if instances:
+                LOG.debug(_("Hadoop instances found"),
+                        locals())
                 # Selects the datanode instances within all the Hadoop instances
                 datanodes = [uiid for uiid in instances.keys()
                     if self.get_instance_metadata(context, instances[uiid]).get[HadoopFilter.METADATA_HADOOP_KEY]
                     == HadoopFilter.METADATA_HADOOP_VALUE_DATANODE]
                 if datanodes:
+                    LOG.debug(_("Datanode instances found"),
+                        locals())
                     # Retrieves all the hosts
                     hosts = self._all_hosts(context)
                     if hosts:

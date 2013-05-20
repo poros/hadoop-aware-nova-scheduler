@@ -91,7 +91,8 @@ class HadoopFilter(ApplicationAwareFilter):
         # WARNING: Differs from what is written in the IBM paper
         spec = filter_properties.get('request_spec', {})
         image_metadata = spec.get('instance_properties', {}).get('metadata', {})
-        if image_metadata:
+        if (image_metadata
+            and image_metadata.get(HadoopFilter.METADATA_APPLICATION_KEY) == HadoopFilter.METADATA_APPLICATION_VALUE_HADOOP):
             # Retrieves all Hadoop instances
             # TODO: check if it already discriminate instances by user thanks to context
             instances = self._all_application_instances(context, HadoopFilter.METADATA_APPLICATION_VALUE_HADOOP)
@@ -100,7 +101,7 @@ class HadoopFilter(ApplicationAwareFilter):
                         locals())
                 # Selects the datanode instances within all the Hadoop instances
                 datanodes = [uiid for uiid in instances.keys()
-                    if self.get_instance_metadata(context, instances[uiid]).get[HadoopFilter.METADATA_HADOOP_KEY]
+                    if self.compute_api.get_instance_metadata(context, instances[uiid]).get(HadoopFilter.METADATA_HADOOP_KEY)
                     == HadoopFilter.METADATA_HADOOP_VALUE_DATANODE]
                 if datanodes:
                     LOG.debug(_("Datanode instances found"),

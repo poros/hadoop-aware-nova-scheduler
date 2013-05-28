@@ -1,0 +1,16 @@
+hostA 16
+hadoop1 0 0
+hadoop2 0 0
+hostB 8
+hadoop1 2 1
+hadoop2 1 0
+hostC 10
+hadoop1 1 1 
+hadoop2 3 2
+hostD -10
+hadoop1 0 0 
+hadoop2 0 0
+
+instA hadoop1 1
+instB hadoop1 4
+instC hadoop2 2

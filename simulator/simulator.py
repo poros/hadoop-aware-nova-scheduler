@@ -83,7 +83,7 @@ class Host:
         cost += param['ram_weight'] * self.free_ram
         for deploy in self._deployments.values():
             cost += param['corrective_weight'] * param['datanodes_weight'] * float(deploy.datanodes) * float(deploy.instances_num())
-            cost += param['corrective_weight'] * param['tasktrackers_weight'] * (float(deploy.tasktrackers) + float(deploy.instances_num()) - 1.0) * float(deploy.instances_num())
+            cost += param['corrective_weight'] * param['tasktrackers_weight'] * (float(deploy.tasktrackers) - 1.0) * float(deploy.instances_num())
         return cost
 
     def schedule_instance(self, instance):
@@ -343,6 +343,21 @@ if args.test_no and args.test_no == 3:
     assert greedy_solution[1].get_deployment('hadoop1').tasktrackers == 3
     assert len(greedy_solution[1].get_deployment('hadoop1').get_instances()) == 1
     assert greedy_solution[1].get_deployment('hadoop1').get_instances()[0].name == 'instC'
+
+    # HOST A
+    assert optimal_solution[0].name == 'hostA'
+    assert optimal_solution[0].free_ram == 4.0 * 1024.0
+    assert optimal_solution[0].get_deployment('hadoop1').tasktrackers == 1
+    assert len(optimal_solution[0].get_deployment('hadoop1').get_instances()) == 0
+
+    # HOST B
+    assert optimal_solution[1].name == 'hostB'
+    assert optimal_solution[1].free_ram == -4.0 * 1024.0
+    assert optimal_solution[1].get_deployment('hadoop1').tasktrackers == 5
+    assert len(optimal_solution[1].get_deployment('hadoop1').get_instances()) == 3
+    assert optimal_solution[1].get_deployment('hadoop1').get_instances()[0].name == 'instA'
+    assert optimal_solution[1].get_deployment('hadoop1').get_instances()[1].name == 'instB'
+    assert optimal_solution[1].get_deployment('hadoop1').get_instances()[2].name == 'instC'
 
 if args.test_no:
     print 'Test #' + str(args.test_no) + ' passed'

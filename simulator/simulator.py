@@ -164,15 +164,15 @@ def read_status(fd):
 
 def greedy_scheduler(instances, status, param):
     hosts = copy.deepcopy(status)
-    max_cost, max_host = None, None
     for inst in instances:
         # print inst.name
+        max_cost, max_host = None, None
         for host in hosts:
             cost = host.compute_instance_cost(inst, param)
             if (not max_cost or max_cost < cost):
                 max_cost = cost
                 max_host = host
-        # print max_cost, max_host.name
+        # print max_cost/1024, max_host.name
         max_host.schedule_instance(inst)
     return hosts
 
@@ -245,7 +245,7 @@ print 'TOTAL COST ', optimal_cost
 print '################'
 
 
-# UNIT TEST 1
+# UNIT TEST 1 - GREEDY
 
 if (args.test_no and args.test_no == 1):
 
@@ -285,18 +285,19 @@ if (args.test_no and args.test_no == 1):
     assert len(greedy_solution[3].get_deployment('hadoop2').get_instances()) == 0
 
 
-# UNIT TEST INPUT2
+# UNIT TEST INPUT2 -GREEDY
 
 if args.test_no and args.test_no == 2:
 
     # HOST A
     assert greedy_solution[0].name == 'hostA'
-    assert greedy_solution[0].free_ram == 15.0 * 1024.0
+    assert greedy_solution[0].free_ram == 13.0 * 1024.0
     assert greedy_solution[0].get_deployment('hadoop1').tasktrackers == 1
     assert len(greedy_solution[0].get_deployment('hadoop1').get_instances()) == 1
     assert greedy_solution[0].get_deployment('hadoop1').get_instances()[0].name == 'instA'
-    assert greedy_solution[0].get_deployment('hadoop2').tasktrackers == 0
-    assert len(greedy_solution[0].get_deployment('hadoop2').get_instances()) == 0
+    assert greedy_solution[0].get_deployment('hadoop2').tasktrackers == 1
+    assert len(greedy_solution[0].get_deployment('hadoop2').get_instances()) == 1
+    assert greedy_solution[0].get_deployment('hadoop2').get_instances()[0].name == 'instC'
 
     # HOST B
     assert greedy_solution[1].name == 'hostB'
@@ -308,13 +309,12 @@ if args.test_no and args.test_no == 2:
 
     # HOST C
     assert greedy_solution[2].name == 'hostC'
-    assert greedy_solution[2].free_ram == 4.0 * 1024.0
+    assert greedy_solution[2].free_ram == 6.0 * 1024.0
     assert greedy_solution[2].get_deployment('hadoop1').tasktrackers == 1
     assert len(greedy_solution[2].get_deployment('hadoop1').get_instances()) == 0
-    assert greedy_solution[2].get_deployment('hadoop2').tasktrackers == 4
-    assert len(greedy_solution[2].get_deployment('hadoop2').get_instances()) == 2
+    assert greedy_solution[2].get_deployment('hadoop2').tasktrackers == 3
+    assert len(greedy_solution[2].get_deployment('hadoop2').get_instances()) == 1
     assert greedy_solution[2].get_deployment('hadoop2').get_instances()[0].name == 'instB'
-    assert greedy_solution[2].get_deployment('hadoop2').get_instances()[1].name == 'instC'
 
     # HOST D
     assert greedy_solution[3].name == 'hostD'
@@ -323,6 +323,26 @@ if args.test_no and args.test_no == 2:
     assert len(greedy_solution[3].get_deployment('hadoop1').get_instances()) == 0
     assert greedy_solution[3].get_deployment('hadoop2').tasktrackers == 0
     assert len(greedy_solution[3].get_deployment('hadoop2').get_instances()) == 0
+
+
+# UNIT TEST INPUT3 - GREEDY AND OPTIMAL
+
+if args.test_no and args.test_no == 3:
+
+    # HOST A
+    assert greedy_solution[0].name == 'hostA'
+    assert greedy_solution[0].free_ram == 0.0 * 1024.0
+    assert greedy_solution[0].get_deployment('hadoop1').tasktrackers == 3
+    assert len(greedy_solution[0].get_deployment('hadoop1').get_instances()) == 2
+    assert greedy_solution[0].get_deployment('hadoop1').get_instances()[0].name == 'instA'
+    assert greedy_solution[0].get_deployment('hadoop1').get_instances()[1].name == 'instB'
+
+    # HOST B
+    assert greedy_solution[1].name == 'hostB'
+    assert greedy_solution[1].free_ram == 0.0 * 1024.0
+    assert greedy_solution[1].get_deployment('hadoop1').tasktrackers == 3
+    assert len(greedy_solution[1].get_deployment('hadoop1').get_instances()) == 1
+    assert greedy_solution[1].get_deployment('hadoop1').get_instances()[0].name == 'instC'
 
 if args.test_no:
     print 'Test #' + str(args.test_no) + ' passed'

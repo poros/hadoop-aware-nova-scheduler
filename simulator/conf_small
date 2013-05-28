@@ -1,4 +1,0 @@
-ram_weight 1.0
-datanodes_weight 2.0
-tasktrackers_weight 1.0
-corrective_weight 1024.0

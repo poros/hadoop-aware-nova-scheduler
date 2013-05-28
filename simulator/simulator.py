@@ -40,6 +40,10 @@ class Hadoop_Host_Deployment:
         if (instance):
             self._instances.append(instance)
 
+    def undo_schedule_instance(self, instance):
+        if (instance):
+            self._instances.pop()
+
     def __repr__(self):
         res = "datanodes " + str(self._datanodes) + " tasktrackers " + str(self._tasktrackers) + "\n"
         for inst in self._instances:
@@ -87,6 +91,11 @@ class Host:
         deploy.schedule_instance(instance)
         self.free_ram -= instance.ram
 
+    def undo_schedule_instance(self, instance):
+        deploy = self.get_deployment(instance.deploy_name)
+        deploy.undo_schedule_instance(instance)
+        self.free_ram += instance.ram
+
     def __repr__(self):
         cost = self.compute_host_cost(param)
         res = self.name + "\tFree RAM " + str(self.free_ram) + '\tHost Cost ' + str(cost) + "\n"
@@ -117,6 +126,12 @@ def read_params(fd, param):
 
 def read_status(fd):
     hosts = []
+    line = fd.readline()
+    if line:
+        param['hosts_number'], param['deployments_number'], param['instances_number'] = [int(x) for x in line.split(' ', 2)]
+    else:
+        print "Error: input format error"
+        exit()
     for i in range(param['hosts_number']):
         line = fd.readline()
         if line:
@@ -140,6 +155,10 @@ def read_status(fd):
         if line and line != '\n':
             inst_name, deploy_name, ram = line.split(' ', 2)
             instances.append(Instance(inst_name, deploy_name, int(ram) * 1024))
+    if (len(instances) != param['instances_number']):
+        print "Error: input format error"
+        exit()
+
     return hosts, instances
 
 
@@ -157,15 +176,37 @@ def greedy_scheduler(instances, status, param):
         max_host.schedule_instance(inst)
     return hosts
 
+
+def recursive_schedule(instances, hosts, param, max_cost, max_hosts, level):
+        if (level == len(instances)):
+            cost = 0
+            for host in hosts:
+                cost += host.compute_host_cost(param)
+            if (not max_cost or max_cost < cost):
+                max_cost = cost
+                max_hosts = copy.deepcopy(hosts)
+            return max_cost, max_hosts
+
+        for host in hosts:
+            host.schedule_instance(instances[level])
+            max_cost, max_hosts = recursive_schedule(instances, hosts, param, max_cost, max_hosts, level+1)
+            host.undo_schedule_instance(instances[level])
+        return max_cost, max_hosts
+
+
+def optimal_scheduler(instances, status, param):
+    hosts = copy.deepcopy(status)
+    max_cost, max_hosts = None, None
+    max_cost, max_hosts = recursive_schedule(instances, hosts, param, max_cost, max_hosts, 0)
+    return max_cost, max_hosts
+
 # MAIN PROGRAM
 
 param = {
     "ram_weight": 1.0,
     "datanodes_weight": 2.0,
     "tasktrackers_weight": 1.0,
-    "corrective_weight": 1024.0,
-    "hosts_number": 4,
-    "deployments_number": 2
+    "corrective_weight": 1024.0
 }
 
 parser = argparse.ArgumentParser(description="Nova Application-Aware Scheduler Simulator")
@@ -182,6 +223,11 @@ hosts, instances = read_status(args.input_fd)
 
 greedy_solution = greedy_scheduler(instances, hosts, param)
 
+optimal_cost, optimal_solution = optimal_scheduler(instances, hosts, param)
+
+print '################'
+print 'GREEDY SCHEDULER\n'
+
 for i in greedy_solution:
     print i
 
@@ -189,6 +235,15 @@ total_cost = 0
 for i in greedy_solution:
     total_cost += i.compute_host_cost(param)
 print 'TOTAL COST ', total_cost
+print '################'
+print 'OPTIMAL SCHEDULER\n'
+
+for i in optimal_solution:
+    print i
+
+print 'TOTAL COST ', optimal_cost
+print '################'
+
 
 # UNIT TEST 1
 

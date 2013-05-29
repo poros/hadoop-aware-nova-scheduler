@@ -1,0 +1,18 @@
+GREEDY
+host hostA free_RAM 0 cost 4096.000000
+deployment hadoop1 datanodes 0 tasktrackers 3
+instance instA RAM 2048
+instance instB RAM 2048
+host hostB free_RAM 0 cost 2048.000000
+deployment hadoop1 datanodes 0 tasktrackers 3
+instance instC RAM 2048
+total_cost 6144.000000
+OPTIMAL
+host hostA free_RAM 4096 cost 4096.000000
+deployment hadoop1 datanodes 0 tasktrackers 1
+host hostB free_RAM -4096 cost 8192.000000
+deployment hadoop1 datanodes 0 tasktrackers 5
+instance instA RAM 2048
+instance instB RAM 2048
+instance instC RAM 2048
+total_cost 12288.000000

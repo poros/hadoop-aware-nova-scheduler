@@ -1,0 +1,42 @@
+GREEDY
+host hostA free_RAM 12288 cost 12288.000000
+deployment hadoop2 datanodes 0 tasktrackers 0
+deployment hadoop1 datanodes 0 tasktrackers 1
+instance instD RAM 4096
+host hostB free_RAM 8192 cost 8192.000000
+deployment hadoop2 datanodes 1 tasktrackers 0
+deployment hadoop1 datanodes 2 tasktrackers 1
+host hostC free_RAM 2048 cost 32768.000000
+deployment hadoop2 datanodes 3 tasktrackers 5
+instance instC RAM 2048
+instance instE RAM 2048
+instance instF RAM 4096
+deployment hadoop1 datanodes 1 tasktrackers 1
+host hostD free_RAM 10240 cost 22528.000000
+deployment hadoop2 datanodes 2 tasktrackers 1
+deployment hadoop1 datanodes 1 tasktrackers 3
+instance instA RAM 1024
+instance instB RAM 4096
+instance instG RAM 1024
+total_cost 75776.000000
+OPTIMAL
+host hostA free_RAM 16384 cost 16384.000000
+deployment hadoop2 datanodes 0 tasktrackers 0
+deployment hadoop1 datanodes 0 tasktrackers 0
+host hostB free_RAM -2048 cost 30720.000000
+deployment hadoop2 datanodes 1 tasktrackers 0
+deployment hadoop1 datanodes 2 tasktrackers 5
+instance instA RAM 1024
+instance instB RAM 4096
+instance instD RAM 4096
+instance instG RAM 1024
+host hostC free_RAM 2048 cost 32768.000000
+deployment hadoop2 datanodes 3 tasktrackers 5
+instance instC RAM 2048
+instance instE RAM 2048
+instance instF RAM 4096
+deployment hadoop1 datanodes 1 tasktrackers 1
+host hostD free_RAM 16384 cost 16384.000000
+deployment hadoop2 datanodes 2 tasktrackers 1
+deployment hadoop1 datanodes 1 tasktrackers 0
+total_cost 96256.000000

@@ -12,12 +12,16 @@ class Instance:
         self.deploy_name = deploy_name
         self.ram = ram
 
+    def to_string(self):
+        return "instance %s RAM %d\n" % (self.name, self.ram)
+
 
 class Hadoop_Host_Deployment:
     '''
     An Hadoop deployment on a certain host
     '''
-    def __init__(self, datanodes=0, tasktrackers=0):
+    def __init__(self, name, datanodes=0, tasktrackers=0):
+        self.name = name
         self._datanodes = datanodes
         self._tasktrackers = tasktrackers
         self._instances = []
@@ -44,6 +48,12 @@ class Hadoop_Host_Deployment:
         if (instance):
             self._instances.pop()
 
+    def to_string(self):
+        res = "deployment %s datanodes %d tasktrackers %d\n" % (self.name, self.datanodes, self.tasktrackers)
+        for inst in self._instances:
+            res += "%s" % (inst.to_string())
+        return res
+
     def __repr__(self):
         res = "datanodes " + str(self._datanodes) + " tasktrackers " + str(self._tasktrackers) + "\n"
         for inst in self._instances:
@@ -64,7 +74,7 @@ class Host:
         if (deploy_name in self._deployments):
             print "Error: deployment already present on the host"
             exit()
-        self._deployments[deploy_name] = Hadoop_Host_Deployment(datanodes, tasktrackers)
+        self._deployments[deploy_name] = Hadoop_Host_Deployment(deploy_name, datanodes, tasktrackers)
 
     def get_deployment(self, deploy_name):
         return self._deployments.get(deploy_name)
@@ -95,6 +105,13 @@ class Host:
         deploy = self.get_deployment(instance.deploy_name)
         deploy.undo_schedule_instance(instance)
         self.free_ram += instance.ram
+
+    def to_string(self):
+        cost = self.compute_host_cost(param)
+        res = 'host %s free_RAM %d cost %f\n' % (self.name, self.free_ram, cost)
+        for deploy in self._deployments.values():
+            res += deploy.to_string()
+        return res
 
     def __repr__(self):
         cost = self.compute_host_cost(param)
@@ -244,6 +261,19 @@ for i in optimal_solution:
 print 'TOTAL COST ', optimal_cost
 print '################'
 
+if (args.output_fd):
+    args.output_fd.write('GREEDY\n')
+    for i in greedy_solution:
+        args.output_fd.write(i.to_string())
+    total_cost = 0
+    for i in greedy_solution:
+        total_cost += i.compute_host_cost(param)
+    args.output_fd.write('total_cost %f\n' % total_cost)
+
+    args.output_fd.write('OPTIMAL\n')
+    for i in optimal_solution:
+        args.output_fd.write(i.to_string())
+    args.output_fd.write('total_cost %f\n' % optimal_cost)
 
 # UNIT TEST 1 - GREEDY
 

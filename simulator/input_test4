@@ -1,0 +1,10 @@
+2 2 2
+hostA 2
+hadoop1 1 0
+hadoop2 0 0
+hostB 5
+hadoop1 0 0
+hadoop2 0 2
+
+instA hadoop1 5
+instB hadoop2 1

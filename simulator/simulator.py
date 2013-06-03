@@ -1,6 +1,7 @@
 import sys
 import argparse
 import copy
+import unittest
 
 
 class Instance:
@@ -262,10 +263,10 @@ original_unbalance_index = system_unbalance_index(hosts)
 # print original_unbalance_index
 greedy_unbalance_index = system_unbalance_index(greedy_solution)
 # print greedy_unbalance_index
-greedy_unbalance_diff = greedy_unbalance_index - original_unbalance_index
+greedy_unbalance_diff = (greedy_unbalance_index - original_unbalance_index) / original_unbalance_index
 optimal_unbalance_index = system_unbalance_index(optimal_solution)
 # print optimal_unbalance_index
-optimal_unbalance_diff = optimal_unbalance_index - original_unbalance_index
+optimal_unbalance_diff = (optimal_unbalance_index - original_unbalance_index) / original_unbalance_index
 
 args.output_fd.write('GREEDY\n')
 greedy_cost = 0
@@ -452,7 +453,7 @@ if args.test_no and args.test_no == 4:
     # HOST A
     assert greedy_solution[0].name == 'hostA'
     assert greedy_solution[0].free_ram == 1.0 * 1024.0
-    assert greedy_solution[0].cost == 1.0 *1024.0
+    assert greedy_solution[0].cost == 1.0 * 1024.0
     assert greedy_solution[0].get_deployment('hadoop1').datanodes == 1
     assert greedy_solution[0].get_deployment('hadoop1').tasktrackers == 0
     assert len(greedy_solution[0].get_deployment('hadoop1').get_instances()) == 0
@@ -500,6 +501,12 @@ if args.test_no and args.test_no == 4:
     assert optimal_solution[1].get_deployment('hadoop2').get_instances()[0].name == 'instB'
 
     assert optimal_cost == 5.0 * 1024.0
+
+    assert abs(original_unbalance_index - 0.428571428571) < 0.000000000001
+    assert abs(greedy_unbalance_index - 1.0) < 0.000000000001
+    assert abs(greedy_unbalance_diff - 1.333333333333) < 0.000000000001
+    assert abs(optimal_unbalance_index - 7.0) < 0.000000000001
+    assert abs(optimal_unbalance_diff - 15.333333333333) < 0.000000000001
 
 if args.test_no:
     print 'Test #' + str(args.test_no) + ' passed'

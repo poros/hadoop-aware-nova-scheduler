@@ -219,6 +219,18 @@ def optimal_scheduler(instances, status, param):
     max_cost, max_hosts = recursive_schedule(instances, hosts, param, max_cost, max_hosts, 0)
     return max_cost, max_hosts
 
+
+def system_unbalance_index(hosts):
+    ram = 0
+    for h in hosts:
+        ram += h.free_ram
+    avg_ram = float(ram) / float(len(hosts))
+    unbalance = 0
+    for h in hosts:
+        unbalance += abs(avg_ram - float(h.free_ram))
+    unbalance_index = unbalance / float(ram)
+    return unbalance_index
+
 # MAIN PROGRAM
 
 param = {
@@ -246,6 +258,15 @@ greedy_solution = greedy_scheduler(instances, hosts, param)
 
 optimal_cost, optimal_solution = optimal_scheduler(instances, hosts, param)
 
+original_unbalance_index = system_unbalance_index(hosts)
+# print original_unbalance_index
+greedy_unbalance_index = system_unbalance_index(greedy_solution)
+# print greedy_unbalance_index
+greedy_unbalance_diff = greedy_unbalance_index - original_unbalance_index
+optimal_unbalance_index = system_unbalance_index(optimal_solution)
+# print optimal_unbalance_index
+optimal_unbalance_diff = optimal_unbalance_index - original_unbalance_index
+
 args.output_fd.write('GREEDY\n')
 greedy_cost = 0
 for i in greedy_solution:
@@ -253,24 +274,27 @@ for i in greedy_solution:
     greedy_cost += i.cost
     args.output_fd.write(i.to_string())
 args.output_fd.write('total_cost %f\n' % greedy_cost)
+args.output_fd.write('relative_unbalance_variation %f\n' % greedy_unbalance_diff)
 
 args.output_fd.write('OPTIMAL\n')
 for i in optimal_solution:
     i.cost = i.compute_host_cost(param)
     args.output_fd.write(i.to_string())
 args.output_fd.write('total_cost %f\n' % optimal_cost)
-
+args.output_fd.write('relative_unbalance_variation %f\n' % optimal_unbalance_diff)
 if args.verbose:
     print '################'
     print 'GREEDY SCHEDULER\n'
     for i in greedy_solution:
         print i
     print 'TOTAL COST ', greedy_cost
+    print 'RELATIVE UNBALANCE VARIATION', greedy_unbalance_diff
     print '################'
     print 'OPTIMAL SCHEDULER\n'
     for i in optimal_solution:
         print i
     print 'TOTAL COST ', optimal_cost
+    print 'RELATIVE UNBALANCE VARIATION', optimal_unbalance_diff
     print '################'
 
 

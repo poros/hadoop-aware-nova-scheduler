@@ -12,7 +12,7 @@ if ((len(sys.argv) - 5) != deployments_number):
     exit()
 
 try:
-    fout = open(sys.argv[1],'w')
+    fout = open(sys.argv[1], 'w')
 except IOError:
     print 'Error: unable to open ' + sys.argv[1]
     exit()

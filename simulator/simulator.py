@@ -1,6 +1,7 @@
 import sys
 import argparse
 import copy
+import random
 # import matplotlib.pyplot as plt
 from simulator_test import simulator_unit_test_cases
 
@@ -217,6 +218,22 @@ def system_unbalance_index(hosts):
 #     unbalance_index = unbalance / float(ram)
 #     return unbalance_index
 
+
+def random_scheduler(instances, status):
+    hosts = copy.deepcopy(status)
+    for inst in instances:
+        x = random.randint(0, len(hosts) -1)
+        # if hosts[x].free_ram >= inst.ram:
+        hosts[x].schedule_instance(inst)
+
+    cost = 0
+    for h in hosts:
+        h.cost = h.compute_host_cost(param)
+        cost += h.cost
+
+    return cost, hosts
+
+
 def greedy_scheduler(instances, status, param):
     hosts = copy.deepcopy(status)
     for inst in instances:
@@ -296,22 +313,34 @@ if args.conf_fd:
 
 hosts, instances = read_status(args.input_fd)
 
+random_cost, random_solution = random_scheduler(instances, hosts)
+
 greedy_cost, greedy_solution = greedy_scheduler(instances, hosts, param)
 
 optimal_cost, optimal_solution = optimal_scheduler(instances, hosts, param)
 
 original_unbalance_index = system_unbalance_index(hosts)
 # print original_unbalance_index
+random_unbalance_index = system_unbalance_index(random_solution)
+# print random_unbalance_index
 greedy_unbalance_index = system_unbalance_index(greedy_solution)
 # print greedy_unbalance_index
-greedy_unbalance_diff = (greedy_unbalance_index - original_unbalance_index) / original_unbalance_index
 optimal_unbalance_index = system_unbalance_index(optimal_solution)
 # print optimal_unbalance_index
+random_unbalance_diff = (random_unbalance_index - original_unbalance_index) / original_unbalance_index
+greedy_unbalance_diff = (greedy_unbalance_index - original_unbalance_index) / original_unbalance_index
 optimal_unbalance_diff = (optimal_unbalance_index - original_unbalance_index) / original_unbalance_index
 
 if not args.short:
+    args.output_fd.write('RANDOM\n')
+    for i in random_solution:
+        i.cost = i.compute_host_cost(param)
+        args.output_fd.write(i.to_string())
+    args.output_fd.write('total_cost %f\n' % random_cost)
+    args.output_fd.write('relative_unbalance_variation %f\n' % random_unbalance_diff)
+
     args.output_fd.write('GREEDY\n')
-    for i in greedy_solution:
+    for i in random_solution:
         i.cost = i.compute_host_cost(param)
         args.output_fd.write(i.to_string())
     args.output_fd.write('total_cost %f\n' % greedy_cost)
@@ -324,10 +353,17 @@ if not args.short:
     args.output_fd.write('total_cost %f\n' % optimal_cost)
     args.output_fd.write('relative_unbalance_variation %f\n' % optimal_unbalance_diff)
 else:
+    args.output_fd.write('RANDOM %f\n' % random_cost)
     args.output_fd.write('GREEDY %f\n' % greedy_cost)
     args.output_fd.write('OPTIMAL %f\n' % optimal_cost)
 
 if args.verbose:
+    print '################'
+    print 'RANDOM SCHEDULER\n'
+    for i in random_solution:
+        print i
+    print 'TOTAL COST ', random_cost
+    print 'RELATIVE UNBALANCE VARIATION', random_unbalance_diff
     print '################'
     print 'GREEDY SCHEDULER\n'
     for i in greedy_solution:

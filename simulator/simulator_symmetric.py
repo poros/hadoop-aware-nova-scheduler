@@ -89,6 +89,9 @@ class Host:
     def get_deployment(self, deploy_name):
         return self._deployments.get(deploy_name)
 
+    def get_deployment_num_instances(self, deploy_name):
+        return len(self.get_deployment(deploy_name).get_instances())
+
     def compute_instance_cost(self, instance, param):
         cost = 0
         cost += param['ram_weight'] * self.free_ram
@@ -253,8 +256,18 @@ def greedy_scheduler(instances, status, param):
     return cost, hosts
 
 
+counter = 0
+
+
 def recursive_schedule(instances, hosts, param, max_cost, max_hosts, level, last_host):
+        global counter
         if (level == len(instances)):
+            # counter += 1
+            # print '#######################################'
+            # print counter
+            # for i in hosts:
+            #     print i
+            # print '#######################################'
             cost = 0
             for host in hosts:
                 cost += host.compute_host_cost(param)
@@ -264,19 +277,33 @@ def recursive_schedule(instances, hosts, param, max_cost, max_hosts, level, last
                 max_hosts = copy.deepcopy(hosts)
             return max_cost, max_hosts
 
+        if (level == 40):
+            counter += 1
+            print counter
+
+        start = max(last_host, 0)
         end = min(len(hosts), last_host + 2)
-        for h in range(last_host, end):
-            host = hosts[h]
-            host.schedule_instance(instances[level])
-            max_cost, max_hosts = recursive_schedule(instances, hosts, param, max_cost, max_hosts, level+1, h)
-            host.undo_schedule_instance(instances[level])
+        deploy = instances[level].deploy_name
+        for h in range(start, end):
+            # if (h > 0):
+                # x = [hosts[t].get_deployment_num_instances(deploy) >= (hosts[h].get_deployment_num_instances(deploy) + 1)
+                # for t in range(0, h-1)]
+            if (h == 0
+                or hosts[h-1].get_deployment_num_instances(deploy)
+                >= (hosts[h].get_deployment_num_instances(deploy) + 1)
+                ):
+                host = hosts[h]
+                host.schedule_instance(instances[level])
+                max_cost, max_hosts = recursive_schedule(instances, hosts, param, max_cost, max_hosts, level+1, h)
+                host.undo_schedule_instance(instances[level])
         return max_cost, max_hosts
 
 
 def optimal_scheduler(instances, status, param):
     hosts = copy.deepcopy(status)
     max_cost, max_hosts = None, None
-    max_cost, max_hosts = recursive_schedule(instances, hosts, param, max_cost, max_hosts, 0, 0)
+    max_cost, max_hosts = recursive_schedule(instances, hosts, param, max_cost, max_hosts, 0, -1)
+    # print 'GLOBAL COUNTER!!!!!!!!!!!!!!!!!!!!! %d' % (counter)
     return max_cost, max_hosts
 
 

@@ -2,7 +2,6 @@ import sys
 import argparse
 import copy
 import random
-# import matplotlib.pyplot as plt
 from simulator_test import simulator_unit_test_cases
 
 
@@ -222,7 +221,7 @@ def system_unbalance_index(hosts):
 def random_scheduler(instances, status):
     hosts = copy.deepcopy(status)
     for inst in instances:
-        x = random.randint(0, len(hosts) -1)
+        x = random.randint(0, len(hosts) - 1)
         # if hosts[x].free_ram >= inst.ram:
         hosts[x].schedule_instance(inst)
 

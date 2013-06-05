@@ -1,7 +1,13 @@
 import sys
 import argparse
 import copy
-import unittest
+# import matplotlib.pyplot as plt
+from simulator_test import simulator_unit_test_cases
+
+
+#############################################################
+#                          CLASSES                          #
+#############################################################
 
 
 class Instance:
@@ -124,6 +130,11 @@ class Host:
         return res
 
 
+#############################################################
+#                     INPUT PARSING                         #
+#############################################################
+
+
 def read_params(fd, param):
     cnt = 0
     num = len(param)
@@ -182,6 +193,30 @@ def read_status(fd):
     return hosts, instances
 
 
+#############################################################
+#                      COST FUNCTIONS                       #
+#############################################################
+
+
+def system_unbalance_index(hosts):
+    free_rams = [h.free_ram for h in hosts]
+    max_ram = max(free_rams)
+    min_ram = min(free_rams)
+    unbalance_index = abs(float(max_ram - min_ram))
+    return unbalance_index
+
+
+# def system_unbalance_index(hosts):
+#     ram = 0
+#     for h in hosts:
+#         ram += h.free_ram
+#     avg_ram = float(ram) / float(len(hosts))
+#     unbalance = 0
+#     for h in hosts:
+#         unbalance += abs(avg_ram - float(h.free_ram))
+#     unbalance_index = unbalance / float(ram)
+#     return unbalance_index
+
 def greedy_scheduler(instances, status, param):
     hosts = copy.deepcopy(status)
     for inst in instances:
@@ -194,7 +229,12 @@ def greedy_scheduler(instances, status, param):
                 max_host = host
         # print max_cost/1024, max_host.name
         max_host.schedule_instance(inst)
-    return hosts
+
+    cost = 0
+    for h in hosts:
+        h.cost = h.compute_host_cost(param)
+        cost += h.cost
+    return cost, hosts
 
 
 def recursive_schedule(instances, hosts, param, max_cost, max_hosts, level):
@@ -202,7 +242,9 @@ def recursive_schedule(instances, hosts, param, max_cost, max_hosts, level):
             cost = 0
             for host in hosts:
                 cost += host.compute_host_cost(param)
-            if (not max_cost or max_cost < cost):
+            # if (not max_cost or max_cost < cost):
+            if (not max_cost or max_cost < cost
+                or (max_cost == cost and system_unbalance_index(hosts) < system_unbalance_index(max_hosts))):
                 max_cost = cost
                 max_hosts = copy.deepcopy(hosts)
             return max_cost, max_hosts
@@ -221,32 +263,31 @@ def optimal_scheduler(instances, status, param):
     return max_cost, max_hosts
 
 
-def system_unbalance_index(hosts):
-    ram = 0
-    for h in hosts:
-        ram += h.free_ram
-    avg_ram = float(ram) / float(len(hosts))
-    unbalance = 0
-    for h in hosts:
-        unbalance += abs(avg_ram - float(h.free_ram))
-    unbalance_index = unbalance / float(ram)
-    return unbalance_index
+#############################################################
+#                        PARAMETERS                         #
+#############################################################
 
-# MAIN PROGRAM
 
 param = {
-    "ram_weight": 1.0,
+    "ram_weight": 4.0,
     "datanodes_weight": 2.0,
     "tasktrackers_weight": 1.0,
     "corrective_weight": 1024.0
 }
+
+
+#############################################################
+#                       MAIN PROGRAM                        #
+#############################################################
+
 
 parser = argparse.ArgumentParser(description="Nova Application-Aware Scheduler Simulator")
 parser.add_argument("input_fd", metavar='<input_file>', type=argparse.FileType('r'), default=sys.stdin, help='input file')
 parser.add_argument("--out", dest='output_fd', metavar='<output_file>', type=argparse.FileType('w'), default=sys.stdout, help='output file')
 parser.add_argument("--conf", dest='conf_fd', metavar='<conf_file>', type=argparse.FileType('r'), help='configuration file')
 parser.add_argument("--test", dest='test_no', metavar='<unit_test#>', type=int, help='unit test #')
-parser.add_argument("--verbose", "-v", dest='verbose', action='store_true', help='verbose (and more human readable) solution visualization')
+parser.add_argument("--verbose", "-v", dest='verbose', action='store_true', help='verbose (and more human readable) solution visualization will be printed on screen')
+parser.add_argument("--short", "-s", dest='short', action='store_true', help='a shorter version of the output with only the costs will be used instead of the normal one')
 
 args = parser.parse_args()
 
@@ -255,7 +296,7 @@ if args.conf_fd:
 
 hosts, instances = read_status(args.input_fd)
 
-greedy_solution = greedy_scheduler(instances, hosts, param)
+greedy_cost, greedy_solution = greedy_scheduler(instances, hosts, param)
 
 optimal_cost, optimal_solution = optimal_scheduler(instances, hosts, param)
 
@@ -268,21 +309,24 @@ optimal_unbalance_index = system_unbalance_index(optimal_solution)
 # print optimal_unbalance_index
 optimal_unbalance_diff = (optimal_unbalance_index - original_unbalance_index) / original_unbalance_index
 
-args.output_fd.write('GREEDY\n')
-greedy_cost = 0
-for i in greedy_solution:
-    i.cost = i.compute_host_cost(param)
-    greedy_cost += i.cost
-    args.output_fd.write(i.to_string())
-args.output_fd.write('total_cost %f\n' % greedy_cost)
-args.output_fd.write('relative_unbalance_variation %f\n' % greedy_unbalance_diff)
+if not args.short:
+    args.output_fd.write('GREEDY\n')
+    for i in greedy_solution:
+        i.cost = i.compute_host_cost(param)
+        args.output_fd.write(i.to_string())
+    args.output_fd.write('total_cost %f\n' % greedy_cost)
+    args.output_fd.write('relative_unbalance_variation %f\n' % greedy_unbalance_diff)
 
-args.output_fd.write('OPTIMAL\n')
-for i in optimal_solution:
-    i.cost = i.compute_host_cost(param)
-    args.output_fd.write(i.to_string())
-args.output_fd.write('total_cost %f\n' % optimal_cost)
-args.output_fd.write('relative_unbalance_variation %f\n' % optimal_unbalance_diff)
+    args.output_fd.write('OPTIMAL\n')
+    for i in optimal_solution:
+        i.cost = i.compute_host_cost(param)
+        args.output_fd.write(i.to_string())
+    args.output_fd.write('total_cost %f\n' % optimal_cost)
+    args.output_fd.write('relative_unbalance_variation %f\n' % optimal_unbalance_diff)
+else:
+    args.output_fd.write('GREEDY %f\n' % greedy_cost)
+    args.output_fd.write('OPTIMAL %f\n' % optimal_cost)
+
 if args.verbose:
     print '################'
     print 'GREEDY SCHEDULER\n'
@@ -298,215 +342,5 @@ if args.verbose:
     print 'RELATIVE UNBALANCE VARIATION', optimal_unbalance_diff
     print '################'
 
-
-#############################################################
-#                        UNIT TESTS                         #
-#############################################################
-
-# UNIT TEST 1 - GREEDY
-
-if args.test_no and args.test_no == 1:
-
-    # HOST A
-    assert greedy_solution[0].name == 'hostA'
-    assert greedy_solution[0].free_ram == 11.0 * 1024.0
-    assert greedy_solution[0].get_deployment('hadoop1').datanodes == 0
-    assert greedy_solution[0].get_deployment('hadoop1').tasktrackers == 2
-    assert len(greedy_solution[0].get_deployment('hadoop1').get_instances()) == 2
-    assert greedy_solution[0].get_deployment('hadoop1').get_instances()[0].name == 'instA'
-    assert greedy_solution[0].get_deployment('hadoop1').get_instances()[1].name == 'instB'
-    assert greedy_solution[0].get_deployment('hadoop2').datanodes == 0
-    assert greedy_solution[0].get_deployment('hadoop2').tasktrackers == 0
-    assert len(greedy_solution[0].get_deployment('hadoop2').get_instances()) == 0
-
-    # HOST B
-    assert greedy_solution[1].name == 'hostB'
-    assert greedy_solution[1].free_ram == 8.0 * 1024.0
-    assert greedy_solution[1].get_deployment('hadoop1').datanodes == 2
-    assert greedy_solution[1].get_deployment('hadoop1').tasktrackers == 1
-    assert len(greedy_solution[1].get_deployment('hadoop1').get_instances()) == 0
-    assert greedy_solution[1].get_deployment('hadoop2').datanodes == 1
-    assert greedy_solution[1].get_deployment('hadoop2').tasktrackers == 0
-    assert len(greedy_solution[1].get_deployment('hadoop2').get_instances()) == 0
-
-    # HOST C
-    assert greedy_solution[2].name == 'hostC'
-    assert greedy_solution[2].free_ram == 8.0 * 1024.0
-    assert greedy_solution[2].get_deployment('hadoop1').datanodes == 1
-    assert greedy_solution[2].get_deployment('hadoop1').tasktrackers == 1
-    assert len(greedy_solution[2].get_deployment('hadoop1').get_instances()) == 0
-    assert greedy_solution[2].get_deployment('hadoop2').datanodes == 3
-    assert greedy_solution[2].get_deployment('hadoop2').tasktrackers == 3
-    assert len(greedy_solution[2].get_deployment('hadoop2').get_instances()) == 1
-    assert greedy_solution[2].get_deployment('hadoop2').get_instances()[0].name == 'instC'
-
-    # HOST D
-    assert greedy_solution[3].name == 'hostD'
-    assert greedy_solution[3].free_ram == -10.0 * 1024.0
-    assert greedy_solution[3].get_deployment('hadoop1').datanodes == 0
-    assert greedy_solution[3].get_deployment('hadoop1').tasktrackers == 0
-    assert len(greedy_solution[3].get_deployment('hadoop1').get_instances()) == 0
-    assert greedy_solution[3].get_deployment('hadoop2').datanodes == 0
-    assert greedy_solution[3].get_deployment('hadoop2').tasktrackers == 0
-    assert len(greedy_solution[3].get_deployment('hadoop2').get_instances()) == 0
-
-
-# UNIT TEST INPUT2 -GREEDY
-
-if args.test_no and args.test_no == 2:
-
-    # HOST A
-    assert greedy_solution[0].name == 'hostA'
-    assert greedy_solution[0].free_ram == 13.0 * 1024.0
-    assert greedy_solution[0].get_deployment('hadoop1').datanodes == 0
-    assert greedy_solution[0].get_deployment('hadoop1').tasktrackers == 1
-    assert len(greedy_solution[0].get_deployment('hadoop1').get_instances()) == 1
-    assert greedy_solution[0].get_deployment('hadoop1').get_instances()[0].name == 'instA'
-    assert greedy_solution[0].get_deployment('hadoop2').datanodes == 0
-    assert greedy_solution[0].get_deployment('hadoop2').tasktrackers == 1
-    assert len(greedy_solution[0].get_deployment('hadoop2').get_instances()) == 1
-    assert greedy_solution[0].get_deployment('hadoop2').get_instances()[0].name == 'instC'
-
-    # HOST B
-    assert greedy_solution[1].name == 'hostB'
-    assert greedy_solution[1].free_ram == 8.0 * 1024.0
-    assert greedy_solution[1].get_deployment('hadoop1').datanodes == 2
-    assert greedy_solution[1].get_deployment('hadoop1').tasktrackers == 1
-    assert len(greedy_solution[1].get_deployment('hadoop1').get_instances()) == 0
-    assert greedy_solution[1].get_deployment('hadoop2').datanodes == 1
-    assert greedy_solution[1].get_deployment('hadoop2').tasktrackers == 0
-    assert len(greedy_solution[1].get_deployment('hadoop2').get_instances()) == 0
-
-    # HOST C
-    assert greedy_solution[2].name == 'hostC'
-    assert greedy_solution[2].free_ram == 6.0 * 1024.0
-    assert greedy_solution[2].get_deployment('hadoop1').datanodes == 1
-    assert greedy_solution[2].get_deployment('hadoop1').tasktrackers == 1
-    assert len(greedy_solution[2].get_deployment('hadoop1').get_instances()) == 0
-    assert greedy_solution[2].get_deployment('hadoop2').datanodes == 3
-    assert greedy_solution[2].get_deployment('hadoop2').tasktrackers == 3
-    assert len(greedy_solution[2].get_deployment('hadoop2').get_instances()) == 1
-    assert greedy_solution[2].get_deployment('hadoop2').get_instances()[0].name == 'instB'
-
-    # HOST D
-    assert greedy_solution[3].name == 'hostD'
-    assert greedy_solution[3].free_ram == -10.0 * 1024.0
-    assert greedy_solution[3].get_deployment('hadoop1').datanodes == 0
-    assert greedy_solution[3].get_deployment('hadoop1').tasktrackers == 0
-    assert len(greedy_solution[3].get_deployment('hadoop1').get_instances()) == 0
-    assert greedy_solution[3].get_deployment('hadoop2').datanodes == 0
-    assert greedy_solution[3].get_deployment('hadoop2').tasktrackers == 0
-    assert len(greedy_solution[3].get_deployment('hadoop2').get_instances()) == 0
-
-
-# UNIT TEST INPUT3 - GREEDY AND OPTIMAL
-
-if args.test_no and args.test_no == 3:
-
-    # HOST A
-    assert greedy_solution[0].name == 'hostA'
-    assert greedy_solution[0].free_ram == 0.0 * 1024.0
-    assert greedy_solution[0].cost == 4.0 * 1024.0
-    assert greedy_solution[0].get_deployment('hadoop1').datanodes == 0
-    assert greedy_solution[0].get_deployment('hadoop1').tasktrackers == 3
-    assert len(greedy_solution[0].get_deployment('hadoop1').get_instances()) == 2
-    assert greedy_solution[0].get_deployment('hadoop1').get_instances()[0].name == 'instA'
-    assert greedy_solution[0].get_deployment('hadoop1').get_instances()[1].name == 'instB'
-
-    # HOST B
-    assert greedy_solution[1].name == 'hostB'
-    assert greedy_solution[1].free_ram == 0.0 * 1024.0
-    assert greedy_solution[1].cost == 2.0 * 1024.0
-    assert greedy_solution[1].get_deployment('hadoop1').datanodes == 0
-    assert greedy_solution[1].get_deployment('hadoop1').tasktrackers == 3
-    assert len(greedy_solution[1].get_deployment('hadoop1').get_instances()) == 1
-    assert greedy_solution[1].get_deployment('hadoop1').get_instances()[0].name == 'instC'
-
-    assert greedy_cost == 6.0 * 1024.0
-
-    # HOST A
-    assert optimal_solution[0].name == 'hostA'
-    assert optimal_solution[0].free_ram == 4.0 * 1024.0
-    assert optimal_solution[0].cost == 4.0 * 1024.0
-    assert optimal_solution[0].get_deployment('hadoop1').datanodes == 0
-    assert optimal_solution[0].get_deployment('hadoop1').datanodes == 0
-    assert optimal_solution[0].get_deployment('hadoop1').tasktrackers == 1
-    assert len(optimal_solution[0].get_deployment('hadoop1').get_instances()) == 0
-
-    # HOST B
-    assert optimal_solution[1].name == 'hostB'
-    assert optimal_solution[1].free_ram == -4.0 * 1024.0
-    assert optimal_solution[1].cost == 8.0 * 1024.0
-    assert optimal_solution[1].get_deployment('hadoop1').datanodes == 0
-    assert optimal_solution[1].get_deployment('hadoop1').tasktrackers == 5
-    assert len(optimal_solution[1].get_deployment('hadoop1').get_instances()) == 3
-    assert optimal_solution[1].get_deployment('hadoop1').get_instances()[0].name == 'instA'
-    assert optimal_solution[1].get_deployment('hadoop1').get_instances()[1].name == 'instB'
-    assert optimal_solution[1].get_deployment('hadoop1').get_instances()[2].name == 'instC'
-
-    assert optimal_cost == 12.0 * 1024.0
-
-# UNIT TEST INPUT4 - GREEDY AND OPTIMAL
-
-if args.test_no and args.test_no == 4:
-
-    # HOST A
-    assert greedy_solution[0].name == 'hostA'
-    assert greedy_solution[0].free_ram == 1.0 * 1024.0
-    assert greedy_solution[0].cost == 1.0 * 1024.0
-    assert greedy_solution[0].get_deployment('hadoop1').datanodes == 1
-    assert greedy_solution[0].get_deployment('hadoop1').tasktrackers == 0
-    assert len(greedy_solution[0].get_deployment('hadoop1').get_instances()) == 0
-    assert greedy_solution[0].get_deployment('hadoop2').datanodes == 0
-    assert greedy_solution[0].get_deployment('hadoop2').tasktrackers == 1
-    assert len(greedy_solution[0].get_deployment('hadoop2').get_instances()) == 1
-    assert greedy_solution[0].get_deployment('hadoop2').get_instances()[0].name == 'instB'
-
-    # HOST B
-    assert greedy_solution[1].name == 'hostB'
-    assert greedy_solution[1].free_ram == 0.0 * 1024.0
-    assert greedy_solution[1].cost == 0.0 * 1024.0
-    assert greedy_solution[1].get_deployment('hadoop1').datanodes == 0
-    assert greedy_solution[1].get_deployment('hadoop1').tasktrackers == 1
-    assert len(greedy_solution[1].get_deployment('hadoop1').get_instances()) == 1
-    assert greedy_solution[1].get_deployment('hadoop1').get_instances()[0].name == 'instA'
-    assert greedy_solution[1].get_deployment('hadoop2').datanodes == 0
-    assert greedy_solution[1].get_deployment('hadoop2').tasktrackers == 2
-    assert len(greedy_solution[1].get_deployment('hadoop2').get_instances()) == 0
-
-    assert greedy_cost == 1.0 * 1024.0
-
-    # HOST A
-    assert optimal_solution[0].name == 'hostA'
-    assert optimal_solution[0].free_ram == -3.0 * 1024.0
-    assert optimal_solution[0].cost == -1.0 * 1024.0
-    assert optimal_solution[0].get_deployment('hadoop1').datanodes == 1
-    assert optimal_solution[0].get_deployment('hadoop1').tasktrackers == 1
-    assert len(optimal_solution[0].get_deployment('hadoop1').get_instances()) == 1
-    assert optimal_solution[0].get_deployment('hadoop1').get_instances()[0].name == 'instA'
-    assert optimal_solution[0].get_deployment('hadoop2').datanodes == 0
-    assert optimal_solution[0].get_deployment('hadoop2').tasktrackers == 0
-    assert len(optimal_solution[0].get_deployment('hadoop2').get_instances()) == 0
-
-    # HOST B
-    assert optimal_solution[1].name == 'hostB'
-    assert optimal_solution[1].free_ram == 4.0 * 1024.0
-    assert optimal_solution[1].cost == 6.0 * 1024.0
-    assert optimal_solution[1].get_deployment('hadoop1').datanodes == 0
-    assert optimal_solution[1].get_deployment('hadoop1').tasktrackers == 0
-    assert len(optimal_solution[1].get_deployment('hadoop1').get_instances()) == 0
-    assert optimal_solution[1].get_deployment('hadoop2').datanodes == 0
-    assert optimal_solution[1].get_deployment('hadoop2').tasktrackers == 3
-    assert len(optimal_solution[1].get_deployment('hadoop2').get_instances()) == 1
-    assert optimal_solution[1].get_deployment('hadoop2').get_instances()[0].name == 'instB'
-
-    assert optimal_cost == 5.0 * 1024.0
-
-    assert abs(original_unbalance_index - 0.428571428571) < 0.000000000001
-    assert abs(greedy_unbalance_index - 1.0) < 0.000000000001
-    assert abs(greedy_unbalance_diff - 1.333333333333) < 0.000000000001
-    assert abs(optimal_unbalance_index - 7.0) < 0.000000000001
-    assert abs(optimal_unbalance_diff - 15.333333333333) < 0.000000000001
-
 if args.test_no:
-    print 'Test #' + str(args.test_no) + ' passed'
+    simulator_unit_test_cases(args.test_no, greedy_solution, greedy_cost, optimal_solution, optimal_cost)

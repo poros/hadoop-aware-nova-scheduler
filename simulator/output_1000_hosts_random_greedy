@@ -1,0 +1,6651 @@
+RANDOM 311887872.000000
+GREEDY 311869440.000000
+################
+RANDOM SCHEDULER
+
+host0	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host1	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host2	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host3	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host4	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host5	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host6	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host7	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host8	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host9	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host10	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host11	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst116
+
+host12	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst80
+|-deploy1 datanodes 1 tasktrackers 0
+
+host13	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host14	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host15	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst26
+|-deploy1 datanodes 1 tasktrackers 0
+
+host16	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host17	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host18	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host19	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host20	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host21	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host22	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host23	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host24	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host25	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst114
+
+host26	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host27	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host28	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst56
+|-deploy1 datanodes 1 tasktrackers 0
+
+host29	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host30	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst47
+|-deploy1 datanodes 1 tasktrackers 0
+
+host31	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host32	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host33	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host34	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst85
+|-deploy1 datanodes 1 tasktrackers 0
+
+host35	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host36	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host37	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host38	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host39	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host40	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst78
+|-deploy1 datanodes 1 tasktrackers 0
+
+host41	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host42	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host43	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host44	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst37
+|-deploy1 datanodes 1 tasktrackers 0
+
+host45	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host46	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst102
+
+host47	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host48	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host49	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host50	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host51	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host52	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host53	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host54	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host55	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host56	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host57	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host58	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host59	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host60	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host61	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host62	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host63	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host64	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host65	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst49
+|-deploy1 datanodes 1 tasktrackers 0
+
+host66	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host67	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst100
+
+host68	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host69	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host70	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst44
+|-deploy1 datanodes 1 tasktrackers 0
+
+host71	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host72	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host73	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host74	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host75	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst92
+|-deploy1 datanodes 1 tasktrackers 0
+
+host76	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host77	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host78	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host79	Free RAM 114688	Host Cost 350208.0
+|-deploy0 datanodes 1 tasktrackers 2
+	|-inst45
+	|-inst66
+|-deploy1 datanodes 1 tasktrackers 0
+
+host80	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host81	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host82	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host83	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst3
+|-deploy1 datanodes 1 tasktrackers 0
+
+host84	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst108
+
+host85	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host86	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host87	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host88	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host89	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host90	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host91	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host92	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host93	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host94	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst93
+|-deploy1 datanodes 1 tasktrackers 0
+
+host95	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host96	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host97	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host98	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host99	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst87
+|-deploy1 datanodes 1 tasktrackers 0
+
+host100	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host101	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host102	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host103	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host104	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host105	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host106	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host107	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host108	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host109	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host110	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host111	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host112	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host113	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host114	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host115	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host116	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host117	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host118	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host119	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host120	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host121	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host122	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host123	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host124	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host125	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host126	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host127	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host128	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host129	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host130	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host131	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host132	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host133	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host134	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host135	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host136	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host137	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host138	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host139	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host140	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst32
+|-deploy1 datanodes 1 tasktrackers 0
+
+host141	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host142	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host143	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host144	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host145	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host146	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host147	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host148	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host149	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host150	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host151	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host152	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host153	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host154	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host155	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host156	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host157	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host158	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host159	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst117
+
+host160	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host161	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst16
+|-deploy1 datanodes 1 tasktrackers 0
+
+host162	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host163	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst103
+
+host164	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host165	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host166	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host167	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host168	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host169	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host170	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host171	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host172	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host173	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host174	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host175	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst62
+|-deploy1 datanodes 1 tasktrackers 0
+
+host176	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst51
+|-deploy1 datanodes 1 tasktrackers 0
+
+host177	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host178	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst8
+|-deploy1 datanodes 1 tasktrackers 0
+
+host179	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host180	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host181	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst90
+|-deploy1 datanodes 1 tasktrackers 0
+
+host182	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host183	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host184	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host185	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host186	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host187	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host188	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host189	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host190	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host191	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host192	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host193	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst18
+|-deploy1 datanodes 1 tasktrackers 0
+
+host194	Free RAM 114688	Host Cost 350208.0
+|-deploy0 datanodes 1 tasktrackers 2
+	|-inst38
+	|-inst58
+|-deploy1 datanodes 1 tasktrackers 0
+
+host195	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host196	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst107
+
+host197	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host198	Free RAM 114688	Host Cost 348160.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst43
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst104
+
+host199	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host200	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host201	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host202	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst113
+
+host203	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host204	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host205	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host206	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host207	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst99
+|-deploy1 datanodes 1 tasktrackers 0
+
+host208	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host209	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host210	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host211	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host212	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host213	Free RAM 114688	Host Cost 348160.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst77
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst115
+
+host214	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host215	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host216	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host217	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host218	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host219	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host220	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host221	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host222	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host223	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host224	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host225	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host226	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host227	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host228	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host229	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst7
+|-deploy1 datanodes 1 tasktrackers 0
+
+host230	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host231	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host232	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host233	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host234	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host235	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host236	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host237	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host238	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host239	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host240	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host241	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst22
+|-deploy1 datanodes 1 tasktrackers 0
+
+host242	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host243	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host244	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst21
+|-deploy1 datanodes 1 tasktrackers 0
+
+host245	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host246	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host247	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host248	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst97
+|-deploy1 datanodes 1 tasktrackers 0
+
+host249	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host250	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst110
+
+host251	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host252	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host253	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host254	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host255	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host256	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host257	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host258	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host259	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host260	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host261	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host262	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host263	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst67
+|-deploy1 datanodes 1 tasktrackers 0
+
+host264	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host265	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host266	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host267	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host268	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst73
+|-deploy1 datanodes 1 tasktrackers 0
+
+host269	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host270	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst91
+|-deploy1 datanodes 1 tasktrackers 0
+
+host271	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host272	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host273	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host274	Free RAM 114688	Host Cost 348160.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst98
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst111
+
+host275	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host276	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host277	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host278	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst74
+|-deploy1 datanodes 1 tasktrackers 0
+
+host279	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host280	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host281	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host282	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host283	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host284	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host285	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host286	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host287	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host288	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host289	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host290	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host291	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host292	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host293	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host294	Free RAM 114688	Host Cost 350208.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 2
+	|-inst112
+	|-inst118
+
+host295	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host296	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host297	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host298	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host299	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host300	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host301	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host302	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host303	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host304	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host305	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host306	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host307	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host308	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host309	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host310	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host311	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host312	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host313	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host314	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host315	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host316	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host317	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host318	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host319	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host320	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host321	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host322	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst52
+|-deploy1 datanodes 1 tasktrackers 0
+
+host323	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host324	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host325	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host326	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host327	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host328	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host329	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host330	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host331	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host332	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst20
+|-deploy1 datanodes 1 tasktrackers 0
+
+host333	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host334	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst34
+|-deploy1 datanodes 1 tasktrackers 0
+
+host335	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host336	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host337	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst75
+|-deploy1 datanodes 1 tasktrackers 0
+
+host338	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host339	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst50
+|-deploy1 datanodes 1 tasktrackers 0
+
+host340	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host341	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host342	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host343	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host344	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst11
+|-deploy1 datanodes 1 tasktrackers 0
+
+host345	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host346	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host347	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host348	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host349	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host350	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst61
+|-deploy1 datanodes 1 tasktrackers 0
+
+host351	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host352	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst119
+
+host353	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host354	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host355	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host356	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host357	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host358	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host359	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host360	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host361	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host362	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host363	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host364	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host365	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host366	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host367	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host368	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host369	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host370	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host371	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host372	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host373	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host374	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host375	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host376	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host377	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst64
+|-deploy1 datanodes 1 tasktrackers 0
+
+host378	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host379	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host380	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host381	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host382	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host383	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst1
+|-deploy1 datanodes 1 tasktrackers 0
+
+host384	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host385	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host386	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host387	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host388	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host389	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host390	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host391	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host392	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host393	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host394	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host395	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host396	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host397	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host398	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host399	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host400	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host401	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst15
+|-deploy1 datanodes 1 tasktrackers 0
+
+host402	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host403	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host404	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host405	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst109
+
+host406	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host407	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host408	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host409	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host410	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host411	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst57
+|-deploy1 datanodes 1 tasktrackers 0
+
+host412	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host413	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host414	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host415	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host416	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host417	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host418	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host419	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host420	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host421	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host422	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host423	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host424	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host425	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host426	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host427	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host428	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host429	Free RAM 114688	Host Cost 350208.0
+|-deploy0 datanodes 1 tasktrackers 2
+	|-inst48
+	|-inst70
+|-deploy1 datanodes 1 tasktrackers 0
+
+host430	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host431	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host432	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host433	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host434	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host435	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst72
+|-deploy1 datanodes 1 tasktrackers 0
+
+host436	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst83
+|-deploy1 datanodes 1 tasktrackers 0
+
+host437	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host438	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host439	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host440	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host441	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host442	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host443	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host444	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host445	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host446	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host447	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst30
+|-deploy1 datanodes 1 tasktrackers 0
+
+host448	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host449	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host450	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host451	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host452	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host453	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host454	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host455	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host456	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst17
+|-deploy1 datanodes 1 tasktrackers 0
+
+host457	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host458	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host459	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host460	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host461	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host462	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host463	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host464	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst63
+|-deploy1 datanodes 1 tasktrackers 0
+
+host465	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host466	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host467	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host468	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host469	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host470	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host471	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host472	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host473	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host474	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host475	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host476	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host477	Free RAM 114688	Host Cost 350208.0
+|-deploy0 datanodes 1 tasktrackers 2
+	|-inst54
+	|-inst96
+|-deploy1 datanodes 1 tasktrackers 0
+
+host478	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host479	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst6
+|-deploy1 datanodes 1 tasktrackers 0
+
+host480	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host481	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host482	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host483	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host484	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host485	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host486	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host487	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host488	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host489	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host490	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host491	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host492	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host493	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host494	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host495	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host496	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host497	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host498	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host499	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst42
+|-deploy1 datanodes 1 tasktrackers 0
+
+host500	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host501	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host502	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst10
+|-deploy1 datanodes 1 tasktrackers 0
+
+host503	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst105
+
+host504	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host505	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host506	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host507	Free RAM 114688	Host Cost 350208.0
+|-deploy0 datanodes 1 tasktrackers 2
+	|-inst27
+	|-inst76
+|-deploy1 datanodes 1 tasktrackers 0
+
+host508	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host509	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host510	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst46
+|-deploy1 datanodes 1 tasktrackers 0
+
+host511	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host512	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host513	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host514	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host515	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host516	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host517	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host518	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host519	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host520	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host521	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host522	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host523	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host524	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host525	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst81
+|-deploy1 datanodes 1 tasktrackers 0
+
+host526	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host527	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host528	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host529	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host530	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host531	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host532	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host533	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host534	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host535	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst71
+|-deploy1 datanodes 1 tasktrackers 0
+
+host536	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host537	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host538	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host539	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host540	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host541	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host542	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host543	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host544	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host545	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host546	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host547	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host548	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst88
+|-deploy1 datanodes 1 tasktrackers 0
+
+host549	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host550	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host551	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host552	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst106
+
+host553	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host554	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host555	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host556	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host557	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host558	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host559	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host560	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host561	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host562	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host563	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host564	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host565	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst39
+|-deploy1 datanodes 1 tasktrackers 0
+
+host566	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host567	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host568	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host569	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst68
+|-deploy1 datanodes 1 tasktrackers 0
+
+host570	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst4
+|-deploy1 datanodes 1 tasktrackers 0
+
+host571	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host572	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host573	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host574	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst94
+|-deploy1 datanodes 1 tasktrackers 0
+
+host575	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host576	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host577	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host578	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host579	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host580	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host581	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host582	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host583	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host584	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host585	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host586	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host587	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host588	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host589	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host590	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host591	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst60
+|-deploy1 datanodes 1 tasktrackers 0
+
+host592	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host593	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host594	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host595	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host596	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host597	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host598	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host599	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host600	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst9
+|-deploy1 datanodes 1 tasktrackers 0
+
+host601	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst23
+|-deploy1 datanodes 1 tasktrackers 0
+
+host602	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host603	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host604	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst33
+|-deploy1 datanodes 1 tasktrackers 0
+
+host605	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host606	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host607	Free RAM 114688	Host Cost 350208.0
+|-deploy0 datanodes 1 tasktrackers 2
+	|-inst55
+	|-inst95
+|-deploy1 datanodes 1 tasktrackers 0
+
+host608	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host609	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host610	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host611	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host612	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host613	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst40
+|-deploy1 datanodes 1 tasktrackers 0
+
+host614	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host615	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst79
+|-deploy1 datanodes 1 tasktrackers 0
+
+host616	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst36
+|-deploy1 datanodes 1 tasktrackers 0
+
+host617	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host618	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host619	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host620	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host621	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst29
+|-deploy1 datanodes 1 tasktrackers 0
+
+host622	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host623	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host624	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host625	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host626	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host627	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host628	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host629	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host630	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host631	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host632	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host633	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host634	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host635	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host636	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host637	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host638	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host639	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host640	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host641	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host642	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host643	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host644	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host645	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host646	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host647	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host648	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host649	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host650	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host651	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host652	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst82
+|-deploy1 datanodes 1 tasktrackers 0
+
+host653	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host654	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host655	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host656	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host657	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host658	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host659	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host660	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst101
+
+host661	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host662	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host663	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host664	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host665	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host666	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host667	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host668	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host669	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host670	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host671	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host672	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host673	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host674	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host675	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host676	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host677	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host678	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host679	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host680	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host681	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host682	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host683	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host684	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host685	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst35
+|-deploy1 datanodes 1 tasktrackers 0
+
+host686	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host687	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host688	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host689	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host690	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host691	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst2
+|-deploy1 datanodes 1 tasktrackers 0
+
+host692	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst14
+|-deploy1 datanodes 1 tasktrackers 0
+
+host693	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host694	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host695	Free RAM 114688	Host Cost 350208.0
+|-deploy0 datanodes 1 tasktrackers 2
+	|-inst19
+	|-inst86
+|-deploy1 datanodes 1 tasktrackers 0
+
+host696	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst5
+|-deploy1 datanodes 1 tasktrackers 0
+
+host697	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host698	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host699	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host700	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host701	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host702	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host703	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host704	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host705	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host706	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host707	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host708	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host709	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host710	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host711	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host712	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host713	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst65
+|-deploy1 datanodes 1 tasktrackers 0
+
+host714	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host715	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host716	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host717	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host718	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst12
+|-deploy1 datanodes 1 tasktrackers 0
+
+host719	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host720	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host721	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host722	Free RAM 114688	Host Cost 350208.0
+|-deploy0 datanodes 1 tasktrackers 2
+	|-inst13
+	|-inst28
+|-deploy1 datanodes 1 tasktrackers 0
+
+host723	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host724	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host725	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst24
+|-deploy1 datanodes 1 tasktrackers 0
+
+host726	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host727	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host728	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host729	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host730	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst41
+|-deploy1 datanodes 1 tasktrackers 0
+
+host731	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host732	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host733	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host734	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host735	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host736	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host737	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst84
+|-deploy1 datanodes 1 tasktrackers 0
+
+host738	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host739	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host740	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host741	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host742	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host743	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host744	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host745	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host746	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host747	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host748	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host749	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host750	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host751	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host752	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host753	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst69
+|-deploy1 datanodes 1 tasktrackers 0
+
+host754	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host755	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host756	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst53
+|-deploy1 datanodes 1 tasktrackers 0
+
+host757	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host758	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host759	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host760	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host761	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host762	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host763	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host764	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host765	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst31
+|-deploy1 datanodes 1 tasktrackers 0
+
+host766	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host767	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host768	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host769	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst25
+|-deploy1 datanodes 1 tasktrackers 0
+
+host770	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host771	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host772	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host773	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host774	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host775	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host776	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host777	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host778	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host779	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host780	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host781	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host782	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host783	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host784	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst59
+|-deploy1 datanodes 1 tasktrackers 0
+
+host785	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host786	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host787	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host788	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host789	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host790	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host791	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host792	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host793	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host794	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host795	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst89
+|-deploy1 datanodes 1 tasktrackers 0
+
+host796	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host797	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host798	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host799	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+TOTAL COST  311887872.0
+################
+GREEDY SCHEDULER
+
+host0	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host1	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst1
+|-deploy1 datanodes 1 tasktrackers 0
+
+host2	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst2
+|-deploy1 datanodes 1 tasktrackers 0
+
+host3	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst3
+|-deploy1 datanodes 1 tasktrackers 0
+
+host4	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst4
+|-deploy1 datanodes 1 tasktrackers 0
+
+host5	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst5
+|-deploy1 datanodes 1 tasktrackers 0
+
+host6	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst6
+|-deploy1 datanodes 1 tasktrackers 0
+
+host7	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst7
+|-deploy1 datanodes 1 tasktrackers 0
+
+host8	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst8
+|-deploy1 datanodes 1 tasktrackers 0
+
+host9	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst9
+|-deploy1 datanodes 1 tasktrackers 0
+
+host10	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst10
+|-deploy1 datanodes 1 tasktrackers 0
+
+host11	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst11
+|-deploy1 datanodes 1 tasktrackers 0
+
+host12	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst12
+|-deploy1 datanodes 1 tasktrackers 0
+
+host13	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst13
+|-deploy1 datanodes 1 tasktrackers 0
+
+host14	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst14
+|-deploy1 datanodes 1 tasktrackers 0
+
+host15	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst15
+|-deploy1 datanodes 1 tasktrackers 0
+
+host16	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst16
+|-deploy1 datanodes 1 tasktrackers 0
+
+host17	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst17
+|-deploy1 datanodes 1 tasktrackers 0
+
+host18	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst18
+|-deploy1 datanodes 1 tasktrackers 0
+
+host19	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst19
+|-deploy1 datanodes 1 tasktrackers 0
+
+host20	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst20
+|-deploy1 datanodes 1 tasktrackers 0
+
+host21	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst21
+|-deploy1 datanodes 1 tasktrackers 0
+
+host22	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst22
+|-deploy1 datanodes 1 tasktrackers 0
+
+host23	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst23
+|-deploy1 datanodes 1 tasktrackers 0
+
+host24	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst24
+|-deploy1 datanodes 1 tasktrackers 0
+
+host25	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst25
+|-deploy1 datanodes 1 tasktrackers 0
+
+host26	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst26
+|-deploy1 datanodes 1 tasktrackers 0
+
+host27	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst27
+|-deploy1 datanodes 1 tasktrackers 0
+
+host28	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst28
+|-deploy1 datanodes 1 tasktrackers 0
+
+host29	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst29
+|-deploy1 datanodes 1 tasktrackers 0
+
+host30	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst30
+|-deploy1 datanodes 1 tasktrackers 0
+
+host31	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst31
+|-deploy1 datanodes 1 tasktrackers 0
+
+host32	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst32
+|-deploy1 datanodes 1 tasktrackers 0
+
+host33	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst33
+|-deploy1 datanodes 1 tasktrackers 0
+
+host34	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst34
+|-deploy1 datanodes 1 tasktrackers 0
+
+host35	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst35
+|-deploy1 datanodes 1 tasktrackers 0
+
+host36	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst36
+|-deploy1 datanodes 1 tasktrackers 0
+
+host37	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst37
+|-deploy1 datanodes 1 tasktrackers 0
+
+host38	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst38
+|-deploy1 datanodes 1 tasktrackers 0
+
+host39	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst39
+|-deploy1 datanodes 1 tasktrackers 0
+
+host40	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst40
+|-deploy1 datanodes 1 tasktrackers 0
+
+host41	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst41
+|-deploy1 datanodes 1 tasktrackers 0
+
+host42	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst42
+|-deploy1 datanodes 1 tasktrackers 0
+
+host43	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst43
+|-deploy1 datanodes 1 tasktrackers 0
+
+host44	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst44
+|-deploy1 datanodes 1 tasktrackers 0
+
+host45	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst45
+|-deploy1 datanodes 1 tasktrackers 0
+
+host46	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst46
+|-deploy1 datanodes 1 tasktrackers 0
+
+host47	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst47
+|-deploy1 datanodes 1 tasktrackers 0
+
+host48	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst48
+|-deploy1 datanodes 1 tasktrackers 0
+
+host49	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst49
+|-deploy1 datanodes 1 tasktrackers 0
+
+host50	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst50
+|-deploy1 datanodes 1 tasktrackers 0
+
+host51	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst51
+|-deploy1 datanodes 1 tasktrackers 0
+
+host52	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst52
+|-deploy1 datanodes 1 tasktrackers 0
+
+host53	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst53
+|-deploy1 datanodes 1 tasktrackers 0
+
+host54	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst54
+|-deploy1 datanodes 1 tasktrackers 0
+
+host55	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst55
+|-deploy1 datanodes 1 tasktrackers 0
+
+host56	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst56
+|-deploy1 datanodes 1 tasktrackers 0
+
+host57	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst57
+|-deploy1 datanodes 1 tasktrackers 0
+
+host58	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst58
+|-deploy1 datanodes 1 tasktrackers 0
+
+host59	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst59
+|-deploy1 datanodes 1 tasktrackers 0
+
+host60	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst60
+|-deploy1 datanodes 1 tasktrackers 0
+
+host61	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst61
+|-deploy1 datanodes 1 tasktrackers 0
+
+host62	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst62
+|-deploy1 datanodes 1 tasktrackers 0
+
+host63	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst63
+|-deploy1 datanodes 1 tasktrackers 0
+
+host64	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst64
+|-deploy1 datanodes 1 tasktrackers 0
+
+host65	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst65
+|-deploy1 datanodes 1 tasktrackers 0
+
+host66	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst66
+|-deploy1 datanodes 1 tasktrackers 0
+
+host67	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst67
+|-deploy1 datanodes 1 tasktrackers 0
+
+host68	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst68
+|-deploy1 datanodes 1 tasktrackers 0
+
+host69	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst69
+|-deploy1 datanodes 1 tasktrackers 0
+
+host70	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst70
+|-deploy1 datanodes 1 tasktrackers 0
+
+host71	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst71
+|-deploy1 datanodes 1 tasktrackers 0
+
+host72	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst72
+|-deploy1 datanodes 1 tasktrackers 0
+
+host73	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst73
+|-deploy1 datanodes 1 tasktrackers 0
+
+host74	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst74
+|-deploy1 datanodes 1 tasktrackers 0
+
+host75	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst75
+|-deploy1 datanodes 1 tasktrackers 0
+
+host76	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst76
+|-deploy1 datanodes 1 tasktrackers 0
+
+host77	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst77
+|-deploy1 datanodes 1 tasktrackers 0
+
+host78	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst78
+|-deploy1 datanodes 1 tasktrackers 0
+
+host79	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst79
+|-deploy1 datanodes 1 tasktrackers 0
+
+host80	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst80
+|-deploy1 datanodes 1 tasktrackers 0
+
+host81	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst81
+|-deploy1 datanodes 1 tasktrackers 0
+
+host82	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst82
+|-deploy1 datanodes 1 tasktrackers 0
+
+host83	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst83
+|-deploy1 datanodes 1 tasktrackers 0
+
+host84	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst84
+|-deploy1 datanodes 1 tasktrackers 0
+
+host85	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst85
+|-deploy1 datanodes 1 tasktrackers 0
+
+host86	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst86
+|-deploy1 datanodes 1 tasktrackers 0
+
+host87	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst87
+|-deploy1 datanodes 1 tasktrackers 0
+
+host88	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst88
+|-deploy1 datanodes 1 tasktrackers 0
+
+host89	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst89
+|-deploy1 datanodes 1 tasktrackers 0
+
+host90	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst90
+|-deploy1 datanodes 1 tasktrackers 0
+
+host91	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst91
+|-deploy1 datanodes 1 tasktrackers 0
+
+host92	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst92
+|-deploy1 datanodes 1 tasktrackers 0
+
+host93	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst93
+|-deploy1 datanodes 1 tasktrackers 0
+
+host94	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst94
+|-deploy1 datanodes 1 tasktrackers 0
+
+host95	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst95
+|-deploy1 datanodes 1 tasktrackers 0
+
+host96	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst96
+|-deploy1 datanodes 1 tasktrackers 0
+
+host97	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst97
+|-deploy1 datanodes 1 tasktrackers 0
+
+host98	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst98
+|-deploy1 datanodes 1 tasktrackers 0
+
+host99	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 1
+	|-inst99
+|-deploy1 datanodes 1 tasktrackers 0
+
+host100	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst100
+
+host101	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst101
+
+host102	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst102
+
+host103	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst103
+
+host104	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst104
+
+host105	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst105
+
+host106	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst106
+
+host107	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst107
+
+host108	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst108
+
+host109	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst109
+
+host110	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst110
+
+host111	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst111
+
+host112	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst112
+
+host113	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst113
+
+host114	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst114
+
+host115	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst115
+
+host116	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst116
+
+host117	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst117
+
+host118	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst118
+
+host119	Free RAM 122880	Host Cost 370688.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 1
+	|-inst119
+
+host120	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host121	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host122	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host123	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host124	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host125	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host126	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host127	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host128	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host129	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host130	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host131	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host132	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host133	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host134	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host135	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host136	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host137	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host138	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host139	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host140	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host141	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host142	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host143	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host144	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host145	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host146	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host147	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host148	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host149	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host150	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host151	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host152	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host153	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host154	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host155	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host156	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host157	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host158	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host159	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host160	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host161	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host162	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host163	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host164	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host165	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host166	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host167	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host168	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host169	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host170	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host171	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host172	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host173	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host174	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host175	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host176	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host177	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host178	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host179	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host180	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host181	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host182	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host183	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host184	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host185	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host186	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host187	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host188	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host189	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host190	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host191	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host192	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host193	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host194	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host195	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host196	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host197	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host198	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host199	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host200	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host201	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host202	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host203	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host204	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host205	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host206	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host207	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host208	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host209	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host210	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host211	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host212	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host213	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host214	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host215	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host216	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host217	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host218	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host219	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host220	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host221	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host222	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host223	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host224	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host225	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host226	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host227	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host228	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host229	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host230	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host231	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host232	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host233	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host234	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host235	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host236	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host237	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host238	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host239	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host240	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host241	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host242	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host243	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host244	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host245	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host246	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host247	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host248	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host249	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host250	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host251	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host252	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host253	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host254	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host255	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host256	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host257	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host258	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host259	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host260	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host261	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host262	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host263	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host264	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host265	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host266	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host267	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host268	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host269	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host270	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host271	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host272	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host273	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host274	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host275	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host276	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host277	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host278	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host279	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host280	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host281	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host282	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host283	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host284	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host285	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host286	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host287	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host288	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host289	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host290	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host291	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host292	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host293	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host294	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host295	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host296	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host297	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host298	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host299	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host300	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host301	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host302	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host303	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host304	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host305	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host306	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host307	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host308	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host309	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host310	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host311	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host312	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host313	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host314	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host315	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host316	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host317	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host318	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host319	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host320	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host321	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host322	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host323	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host324	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host325	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host326	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host327	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host328	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host329	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host330	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host331	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host332	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host333	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host334	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host335	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host336	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host337	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host338	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host339	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host340	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host341	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host342	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host343	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host344	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host345	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host346	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host347	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host348	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host349	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host350	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host351	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host352	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host353	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host354	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host355	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host356	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host357	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host358	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host359	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host360	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host361	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host362	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host363	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host364	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host365	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host366	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host367	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host368	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host369	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host370	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host371	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host372	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host373	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host374	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host375	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host376	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host377	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host378	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host379	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host380	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host381	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host382	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host383	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host384	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host385	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host386	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host387	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host388	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host389	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host390	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host391	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host392	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host393	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host394	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host395	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host396	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host397	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host398	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host399	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host400	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host401	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host402	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host403	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host404	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host405	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host406	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host407	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host408	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host409	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host410	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host411	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host412	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host413	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host414	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host415	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host416	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host417	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host418	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host419	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host420	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host421	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host422	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host423	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host424	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host425	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host426	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host427	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host428	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host429	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host430	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host431	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host432	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host433	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host434	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host435	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host436	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host437	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host438	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host439	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host440	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host441	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host442	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host443	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host444	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host445	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host446	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host447	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host448	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host449	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host450	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host451	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host452	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host453	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host454	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host455	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host456	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host457	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host458	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host459	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host460	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host461	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host462	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host463	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host464	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host465	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host466	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host467	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host468	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host469	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host470	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host471	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host472	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host473	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host474	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host475	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host476	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host477	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host478	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host479	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host480	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host481	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host482	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host483	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host484	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host485	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host486	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host487	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host488	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host489	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host490	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host491	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host492	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host493	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host494	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host495	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host496	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host497	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host498	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host499	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host500	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host501	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host502	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host503	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host504	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host505	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host506	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host507	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host508	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host509	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host510	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host511	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host512	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host513	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host514	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host515	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host516	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host517	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host518	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host519	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host520	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host521	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host522	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host523	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host524	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host525	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host526	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host527	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host528	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host529	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host530	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host531	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host532	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host533	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host534	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host535	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host536	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host537	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host538	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host539	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host540	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host541	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host542	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host543	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host544	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host545	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host546	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host547	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host548	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host549	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host550	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host551	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host552	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host553	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host554	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host555	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host556	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host557	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host558	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host559	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host560	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host561	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host562	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host563	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host564	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host565	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host566	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host567	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host568	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host569	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host570	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host571	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host572	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host573	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host574	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host575	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host576	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host577	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host578	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host579	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host580	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host581	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host582	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host583	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host584	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host585	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host586	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host587	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host588	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host589	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host590	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host591	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host592	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host593	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host594	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host595	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host596	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host597	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host598	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host599	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host600	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host601	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host602	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host603	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host604	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host605	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host606	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host607	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host608	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host609	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host610	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host611	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host612	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host613	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host614	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host615	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host616	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host617	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host618	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host619	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host620	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host621	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host622	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host623	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host624	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host625	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host626	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host627	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host628	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host629	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host630	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host631	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host632	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host633	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host634	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host635	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host636	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host637	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host638	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host639	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host640	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host641	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host642	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host643	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host644	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host645	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host646	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host647	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host648	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host649	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host650	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host651	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host652	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host653	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host654	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host655	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host656	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host657	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host658	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host659	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host660	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host661	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host662	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host663	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host664	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host665	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host666	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host667	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host668	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host669	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host670	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host671	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host672	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host673	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host674	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host675	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host676	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host677	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host678	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host679	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host680	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host681	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host682	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host683	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host684	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host685	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host686	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host687	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host688	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host689	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host690	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host691	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host692	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host693	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host694	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host695	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host696	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host697	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host698	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host699	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host700	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host701	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host702	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host703	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host704	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host705	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host706	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host707	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host708	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host709	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host710	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host711	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host712	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host713	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host714	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host715	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host716	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host717	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host718	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host719	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host720	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host721	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host722	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host723	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host724	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host725	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host726	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host727	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host728	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host729	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host730	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host731	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host732	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host733	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host734	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host735	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host736	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host737	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host738	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host739	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host740	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host741	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host742	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host743	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host744	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host745	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host746	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host747	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host748	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host749	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host750	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host751	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host752	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host753	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host754	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host755	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host756	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host757	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host758	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host759	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host760	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host761	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host762	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host763	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host764	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host765	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host766	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host767	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host768	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host769	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host770	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host771	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host772	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host773	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host774	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host775	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host776	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host777	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host778	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host779	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host780	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host781	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host782	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host783	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host784	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host785	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host786	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host787	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host788	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host789	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host790	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host791	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host792	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host793	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host794	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host795	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host796	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host797	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host798	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+host799	Free RAM 131072	Host Cost 393216.0
+|-deploy0 datanodes 1 tasktrackers 0
+|-deploy1 datanodes 1 tasktrackers 0
+
+TOTAL COST  311869440.0
+################

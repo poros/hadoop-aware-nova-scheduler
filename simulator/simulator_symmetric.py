@@ -262,12 +262,6 @@ counter = 0
 def recursive_schedule(instances, hosts, param, max_cost, max_hosts, level, last_host):
         global counter
         if (level == len(instances)):
-            # counter += 1
-            # print '#######################################'
-            # print counter
-            # for i in hosts:
-            #     print i
-            # print '#######################################'
             cost = 0
             for host in hosts:
                 cost += host.compute_host_cost(param)
@@ -285,9 +279,6 @@ def recursive_schedule(instances, hosts, param, max_cost, max_hosts, level, last
         end = min(len(hosts), last_host + 2)
         deploy = instances[level].deploy_name
         for h in range(start, end):
-            # if (h > 0):
-                # x = [hosts[t].get_deployment_num_instances(deploy) >= (hosts[h].get_deployment_num_instances(deploy) + 1)
-                # for t in range(0, h-1)]
             if (h == 0
                 or hosts[h-1].get_deployment_num_instances(deploy)
                 >= (hosts[h].get_deployment_num_instances(deploy) + 1)
@@ -346,18 +337,18 @@ greedy_cost, greedy_solution = greedy_scheduler(instances, hosts, param)
 
 optimal_cost, optimal_solution = optimal_scheduler(instances, hosts, param)
 
-# original_unbalance_index = system_unbalance_index(hosts)
-# random_unbalance_index = system_unbalance_index(random_solution)
-# greedy_unbalance_index = system_unbalance_index(greedy_solution)
-# optimal_unbalance_index = system_unbalance_index(optimal_solution)
-# if original_unbalance_index != 0:
-#     random_unbalance_diff = (random_unbalance_index - original_unbalance_index) / original_unbalance_index
-#     greedy_unbalance_diff = (greedy_unbalance_index - original_unbalance_index) / original_unbalance_index
-#     optimal_unbalance_diff = (optimal_unbalance_index - original_unbalance_index) / original_unbalance_index
-# else:
-#     random_unbalance_diff = random_unbalance_index - original_unbalance_index
-#     greedy_unbalance_diff = greedy_unbalance_index - original_unbalance_index
-#     optimal_unbalance_diff = optimal_unbalance_index - original_unbalance_index
+original_unbalance_index = system_unbalance_index(hosts)
+random_unbalance_index = system_unbalance_index(random_solution)
+greedy_unbalance_index = system_unbalance_index(greedy_solution)
+optimal_unbalance_index = system_unbalance_index(optimal_solution)
+if original_unbalance_index != 0:
+    random_unbalance_diff = (random_unbalance_index - original_unbalance_index) / original_unbalance_index
+    greedy_unbalance_diff = (greedy_unbalance_index - original_unbalance_index) / original_unbalance_index
+    optimal_unbalance_diff = (optimal_unbalance_index - original_unbalance_index) / original_unbalance_index
+else:
+    random_unbalance_diff = random_unbalance_index - original_unbalance_index
+    greedy_unbalance_diff = greedy_unbalance_index - original_unbalance_index
+    optimal_unbalance_diff = optimal_unbalance_index - original_unbalance_index
 
 if not args.short:
     args.output_fd.write('RANDOM\n')
@@ -365,21 +356,21 @@ if not args.short:
         i.cost = i.compute_host_cost(param)
         args.output_fd.write(i.to_string())
     args.output_fd.write('total_cost %f\n' % random_cost)
-    # args.output_fd.write('relative_unbalance_variation %f\n' % random_unbalance_diff)
+    args.output_fd.write('relative_unbalance_variation %f\n' % random_unbalance_diff)
 
     args.output_fd.write('GREEDY\n')
     for i in random_solution:
         i.cost = i.compute_host_cost(param)
         args.output_fd.write(i.to_string())
     args.output_fd.write('total_cost %f\n' % greedy_cost)
-    # args.output_fd.write('relative_unbalance_variation %f\n' % greedy_unbalance_diff)
+    args.output_fd.write('relative_unbalance_variation %f\n' % greedy_unbalance_diff)
 
     args.output_fd.write('OPTIMAL\n')
     for i in optimal_solution:
         i.cost = i.compute_host_cost(param)
         args.output_fd.write(i.to_string())
     args.output_fd.write('total_cost %f\n' % optimal_cost)
-    # args.output_fd.write('relative_unbalance_variation %f\n' % optimal_unbalance_diff)
+    args.output_fd.write('relative_unbalance_variation %f\n' % optimal_unbalance_diff)
 else:
     args.output_fd.write('RANDOM %f\n' % random_cost)
     args.output_fd.write('GREEDY %f\n' % greedy_cost)
@@ -391,19 +382,19 @@ if args.verbose:
     for i in random_solution:
         print i
     print 'TOTAL COST ', random_cost
-    # print 'RELATIVE UNBALANCE VARIATION', random_unbalance_diff
+    print 'RELATIVE UNBALANCE VARIATION', random_unbalance_diff
     print '################'
     print 'GREEDY SCHEDULER\n'
     for i in greedy_solution:
         print i
     print 'TOTAL COST ', greedy_cost
-    # print 'RELATIVE UNBALANCE VARIATION', greedy_unbalance_diff
+    print 'RELATIVE UNBALANCE VARIATION', greedy_unbalance_diff
     print '################'
     print 'OPTIMAL SCHEDULER\n'
     for i in optimal_solution:
         print i
     print 'TOTAL COST ', optimal_cost
-    # print 'RELATIVE UNBALANCE VARIATION', optimal_unbalance_diff
+    print 'RELATIVE UNBALANCE VARIATION', optimal_unbalance_diff
     print '################'
 
 if args.test_no:
